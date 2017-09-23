@@ -21,6 +21,8 @@ public class Main {
 		
 		Repository rep = new Repository(src, target);
 		rep.execute();
+
+		System.out.println("repo created");
 		
 		//	Generate Manifest File
 		String manifestDir = target + File.separator + "manifest.txt";
